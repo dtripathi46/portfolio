@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripathi Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/7df9a54245.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class = "logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class ="header-text">
+            <p>Engineering/CS</p>
+            <h1>Hello, I'm Dhruv<br> Tripathi</h1>
+        </div>
+    </div>
+</div>    
+
+<!-- -------------About Me-->
+<div id="about">
+    <div class = "container">
+        <div class = "row">
+            <div class="about-col-1">
+                <img src="images/Profile_2.png">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a graduate from Georgia Institute of Technology 
+                    that has experience and passion for product design and 
+                    robotics, and autonomous programming. I have experience in multiple organizations and projects 
+                    that has given me a strong basis for CAD, 
+                    electronics, programming, and hardware as well as problem solving 
+                    and communication with other branches to synthesize an efficient product/work.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>-Programming: </span><br>Java, Python, Assembly, C++, HTML, GIT</li>
+                            <li><span>-Software: </span><br>MATLAB, LabView, Simulink, Microsoft Office</li>
+                            <li><span>-Machinery: </span><br>Water Jet, Laser Cutters, Mill, Lathe, Bandsaw, 3-D Printers, Hand Held Machinery</li>
+                            <li><span>-CAD: </span><br>Solidworks, AutoCAD, Revit </li>
+                        </ul>
+                    </div>
+
+                    
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BS in M.E/ Minor in Computing</span><br> Graduated from Georgia Institute of Technology in 2022</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!---------------Experiences----------------------->
+<div id="work-experience">
+    <div class="container">
+        <h1 class = "sub-title">My Experience</h1>
+        <div class="work-experience-list">
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Hardware Intern</h2>
+                <p>Integrated camera systems to drones Decided and integrated various 
+                    components such as microphones, power supply, and cameras/ lenses
+                    through optical calculations and experiments while 
+                    Redesigned lightweight enclosure of drone. Set up a test 
+                    bench within raspberry pi to test the cameras capabilities. </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-robot"></i>
+                <h2>Robotics Researcher</h2>
+                <p>Changed the pulley system for the legs to make movement more efficient. 
+                    Accomplished through prototyping in Solidworks and then 3-printing. 
+                    Programmed actuation system to work with sensing in C++ i.e. if the sensor 
+                    detects its moving on gravel the robot will flatten its feet instead of 
+                    trying to grip the terrain.  </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-stethoscope"></i>
+                <h2>Design Intern</h2>
+                <p>Created multiple medical compliant mechanism prototypes to introduce easier to clean 
+                    and manufacture instruments. Conducted analysis through calculations and FEA to determine ideal geometries
+                    to prevent compliant mechanisms from experiencing yield stress such that 
+                    instruments could be reused. Reduced the theoretical stressed by over 500% and created 
+                    working prototypes</p>
+                    <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------Projects--------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/machine_learning.jpg" height="500px">
+                <div class="layer">
+                    <h3>Machine Learning</h3>
+                    <p>Designed a Machine Learning project to identify location based of an image. 
+                        Results after training were within 1% accuracy of Google’s PlaNet. 
+                        Utilized ResNet architecture to create 32 layer CNN for training model. </p>
+                    <a href="https://biancasmrt.github.io/cs4641-team41/"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/lithograph.JPG" height="500px">
+                <div class="layer">
+                    <h3>Vibration Minimization in Lithography</h3>
+                    <p> Researched and prototyped methods to reduce vibrations
+                    at the nanometer scale to produce more powerful computer
+                    chips for ASML. Found a method to reduce average magnitude
+                    by 10%.</p>
+                    <a href="#"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Health.JPG" height="500px">
+                <div class="layer">
+                    <h3>Prototyping Health Devices</h3>
+                    <p>Designed and prototyped a device to measure health 
+                        of aquatic mammals. The device took three axis accelerometer and 
+                        gyroscope measurements and transmitted them to an exterior device.
+                        Data was then processed to determine trends seen and relate them to 
+                        average force and jerk for certain behaviors. </p>
+                    <a href="#"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-------------------Interactive Buttons--------------------------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
